@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "721099056048",
+    "firebase_url": "https://we-work-81895.firebaseio.com",
+    "project_id": "we-work-81895",
+    "storage_bucket": "we-work-81895.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721099056048:android:e49af2801b5cd22873ac75",
+        "android_client_info": {
+          "package_name": "com.example.we_work"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721099056048-cppkot8jlr5j32njeob3cqlfvmaktkf0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoIhAnWHice45O8t4--zaYojvOKWWM-6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721099056048-cppkot8jlr5j32njeob3cqlfvmaktkf0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
