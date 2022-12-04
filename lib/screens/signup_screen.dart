@@ -350,41 +350,41 @@ class _SignUpState extends State<SignUp> {
                   ),
                 ),
                 SizedBox(height: 10),
-                Expanded(
-                  child: Stepper(
-                    controlsBuilder: (BuildContext context,
-                        {VoidCallback onStepContinue,
-                        VoidCallback onStepCancel}) {
-                      return Padding(
-                        padding: const EdgeInsets.symmetric(vertical: 10.0),
-                        child: Row(
-                          children: <Widget>[
-                            RaisedButton(
-                              onPressed: cancel,
-                              child: const Text('BACK'),
-                            ),
-                            SizedBox(width: 20),
-                            RaisedButton(
-                              onPressed: next,
-                              color: UiColors.color2,
-                              child: Text(
-                                currentStep == 1 ? "SIGN UP" : "NEXT",
-                                style: TextStyle(color: UiColors.color1),
-                              ),
-                            ),
-                          ],
-                        ),
-                      );
-                    },
-                    steps: steps,
-                    type: StepperType.horizontal,
-                    // type: StepperType.horizontal,
-                    currentStep: currentStep,
-                    // onStepContinue: next,
-                    onStepTapped: (step) => goTo(step),
-                    // onStepCancel: cancel,
-                  ),
-                ),
+                // Expanded(
+                //   child: Stepper(
+                //     controlsBuilder: (BuildContext context,
+                //         {VoidCallback onStepContinue,
+                //         VoidCallback onStepCancel}) {
+                //       return Padding(
+                //         padding: const EdgeInsets.symmetric(vertical: 10.0),
+                //         child: Row(
+                //           children: <Widget>[
+                //             RaisedButton(
+                //               onPressed: cancel,
+                //               child: const Text('BACK'),
+                //             ),
+                //             SizedBox(width: 20),
+                //             RaisedButton(
+                //               onPressed: next,
+                //               color: UiColors.color2,
+                //               child: Text(
+                //                 currentStep == 1 ? "SIGN UP" : "NEXT",
+                //                 style: TextStyle(color: UiColors.color1),
+                //               ),
+                //             ),
+                //           ],
+                //         ),
+                //       );
+                //     },
+                //     steps: steps,
+                //     type: StepperType.horizontal,
+                //     // type: StepperType.horizontal,
+                //     currentStep: currentStep,
+                //     // onStepContinue: next,
+                //     onStepTapped: (step) => goTo(step),
+                //     // onStepCancel: cancel,
+                //   ),
+                // ),
 
                 // Container(
                 //   width: screenWidth(context, 1),
